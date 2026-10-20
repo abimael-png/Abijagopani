@@ -8,6 +8,6 @@ public class Main {
         System.out.print("Masukan winrate:");
         double winrate = in.nextDouble();
       System.out.println((winrate >=60.0)? "gelo jago bgt" : "poke poke");
-      in.close;
+      in.close();
     }
 }
